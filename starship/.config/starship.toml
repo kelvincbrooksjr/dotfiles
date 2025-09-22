@@ -1,0 +1,14 @@
+# ~/.config/starship.toml
+
+# Use a shorter path format
+[directory]
+truncation_length = 3
+truncate_to_repo = true
+
+# Change the symbol for the git branch
+[git_branch]
+symbol = "🌱 "
+
+# Disable the nodejs module if you don't want to see it
+[nodejs]
+disabled = true
